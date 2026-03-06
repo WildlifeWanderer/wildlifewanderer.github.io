@@ -16,5 +16,5 @@
 
 body {
     background-image: url("background.jpg");
-    background-size: 100%;
+    background-size: auto 100%;
 }
