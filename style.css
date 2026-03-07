@@ -4,8 +4,8 @@
     border-style: groove;
     border-radius: 8px;
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     text-align: center;
 
     overflow: hidden;
@@ -45,7 +45,8 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 65%;
-    height: 900px;
+    min-height: 900px;
+    height: fit-content;
     border-radius: 10%;
     padding: 50px;
 }
@@ -74,7 +75,7 @@ body {
 }
 
 .contents {
-    display: flex;
+    /* display: flex; */
 }
 
 
@@ -107,6 +108,25 @@ body {
     margin-top: -45px;
     transition: margin-top 0.2s ease-in-out;
 
+}
+
+
+.blog_post {
+    display: flex;
+}
+
+.photo {
+    width: 30%;
+    align-content: center;
+}
+
+.photo_text {
+    width: 70%; 
+    margin-left: 20px;  
 
 }
 
+.home_button {
+    width: 90px; 
+   
+}
