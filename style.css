@@ -52,6 +52,13 @@ body {
 
 .link_icon {
     width: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.link_icon:hover {
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 .link_icon_set {
@@ -65,3 +72,41 @@ body {
 .link_icon a {
     text-decoration: none;
 }
+
+.contents {
+    display: flex;
+}
+
+
+.contents_item {
+    display:inline-block;
+    width: 250px;
+    height: 250px;
+
+    align-items: center;
+    
+    border-style: groove;
+    background-color: lightblue;
+
+    margin-right: 20px;
+}
+
+.contents_icon {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    margin-top: -30px;
+    transition: margin-top 0.2s ease-in-out;
+
+}
+
+
+.contents_icon:hover {
+    margin-top: -45px;
+    transition: margin-top 0.2s ease-in-out;
+
+
+}
+
