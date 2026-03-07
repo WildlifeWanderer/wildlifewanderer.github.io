@@ -1,14 +1,17 @@
 #my_div {
-    background-color: red;
 
+    background-color: palegoldenrod;
+    border-style: groove;
     border-radius: 8px;
-    width: 300px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
     overflow: hidden;
 }
 
 .page_banner {
-    background-color: purple;
 
     color: cornflowerblue;
 }
@@ -16,5 +19,49 @@
 
 body {
     background-image: url("background.jpg");
-    background-size: auto 100%;
+    background-size: 200px;
+    background-repeat: repeat;
+}
+
+.main {
+    background-color: white;
+    display:block;
+    width: auto;
+    height: 700px;
+
+    border: 30px soild transparent;
+    border-radius: 10%;
+    padding: 100px;
+    border-image: url("unnamed.png") 33% round;
+    border-image-width: 50px;
+    overflow: hidden;
+   
+}
+
+.container {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 65%;
+    height: 900px;
+    border-radius: 10%;
+    padding: 50px;
+}
+
+.link_icon {
+    width: 90px;
+}
+
+.link_icon_set {
+    float:left;
+    border-style: groove;
+    background-color: palegoldenrod;
+    width:100px;
+
+}
+
+.link_icon a {
+    text-decoration: none;
 }
