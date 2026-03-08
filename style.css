@@ -27,7 +27,8 @@ body {
     background-color: white;
     display:block;
     width: auto;
-    height: 700px;
+    min-height: 700px;
+    height: fit-content;
 
     border: 30px soild transparent;
     border-radius: 10%;
@@ -65,6 +66,7 @@ body {
 .link_icon_set {
     float:left;
     border-style: groove;
+    border-radius: 10%;
     background-color: palegoldenrod;
     width:100px;
 
@@ -87,6 +89,7 @@ body {
     align-items: center;
     
     border-style: groove;
+    border-radius: 10%;
     background-color: lightblue;
 
     margin-right: 20px;
@@ -128,5 +131,15 @@ body {
 
 .home_button {
     width: 90px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: margin-top 0.2s ease-in-out;
    
+}
+
+.home_button:hover {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    transition: margin-top 0.2s ease-in-out;
+
 }
